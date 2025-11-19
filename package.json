@@ -1,0 +1,9 @@
+﻿{
+  "name": "cardgame",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "bootstrap": "npm install",
+    "lint": "echo 'run per package' && exit 0"
+  }
+}
