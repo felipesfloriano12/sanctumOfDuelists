@@ -1,9 +1,14 @@
-﻿{
+{
   "name": "cardgame",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "npm install",
     "lint": "echo 'run per package' && exit 0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1"
   }
 }
